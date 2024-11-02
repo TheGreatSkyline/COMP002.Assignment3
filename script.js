@@ -36,6 +36,24 @@ function getCircumference(radius) {
 // Example Output:
 // Create a function called searchString that takes a character and then returns how many times it appears in another string argument.
 
+function countCharInString(char, str) {
+    // make a const variable for count
+    let count = 0;
+    // loop through the string
+    for (let i = 0; i < str.length; i++) {
+      // loop through the string
+      if (str[i] === char) {
+        // increment count
+        count++;
+      }
+    }
+    return count;
+  }
+  
+  
+  // Example usage
+  console.log(countCharInString('p', 'mississippi')); // Outputs: 2
+  console.log(countCharInString('o', 'mississippi')); // Outputs: 0
   
 // console.log(searchString(“s”, “mississippi”)); // will output 4
 // console.log(searchString(“q”, “mississippi”)); // will output 0
