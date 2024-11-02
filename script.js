@@ -18,7 +18,17 @@ function min(a, b) {
 
 // 2. Write a function that takes the radius of a circle and outputs it’s approximate circumference (the formula for circumference is 2 *pi * radius, you may use 3.14 for pi).
 // Example Output:
-
+// Created a function that takes the radius of a circle and outputs it’s approximate circumference 
+function getCircumference(radius) {
+    // make a const variable for pi
+    const pi = 3.14;
+    // return the circumference
+    return 2 * pi * radius;
+  }
+  
+  // Example usage
+  console.log(getCircumference(5)); // Outputs: 31.4
+  console.log(getCircumference(10)); // Outputs: 62.8
   
 // console.log(calculateCircumference(5)); // will output 31.4
 
