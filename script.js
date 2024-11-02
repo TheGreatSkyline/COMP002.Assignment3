@@ -47,6 +47,7 @@ function countCharInString(char, str) {
         count++;
       }
     }
+    // return count
     return count;
   }
   
